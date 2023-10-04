@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: RickAndMortyFont;
+  src: url(font/get_schwifty.ttf);
+}
+
+h1, h2, h3{
+  text-shadow:
+    -1px 0px 0px #FFF765,
+    1px 0px 0px #FFF765,
+    0px -1px 0px #FFF765,
+    0px 1px 0px #FFF765;
+  font-family: RickAndMortyFont;
+  color: #08BAE3;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link { text-decoration: none; }
+a:-webkit-any-link { color: #08BAE3;}
+
